@@ -1,4 +1,4 @@
-#  Starting from EXPRESS JS DAN REACT JS
+#  Starting from EXPRESS JS & REACT JS
 
 ---
 
