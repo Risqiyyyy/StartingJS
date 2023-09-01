@@ -76,18 +76,10 @@ const SignupForm = ({ setAuth }) => {
           >
             <TextField
               fullWidth
-              label="First name"
-              {...getFieldProps("firstName")}
-              error={Boolean(touched.firstName && errors.firstName)}
-              helperText={touched.firstName && errors.firstName}
-            />
-
-            <TextField
-              fullWidth
-              label="Last name"
-              {...getFieldProps("lastName")}
-              error={Boolean(touched.lastName && errors.lastName)}
-              helperText={touched.lastName && errors.lastName}
+              label="Full name"
+              {...getFieldProps("fullname")}
+              error={Boolean(touched.fullname && errors.fullname)}
+              helperText={touched.fullname && errors.fullname}
             />
           </Stack>
 
